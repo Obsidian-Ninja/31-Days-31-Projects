@@ -1,0 +1,67 @@
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+}
+
+.container{
+    position: relative;
+    background-image: url("images/bg.png");
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 48px;
+    margin-right: 10px;
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+h6{
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+}
+
+h5.number{
+    font-size: 18px;
+    margin-top: 4px;
+    letter-spacing: 1px;
+}
+header .chip{
+    width: 60px;
+}
+
+h5.name{
+    margin-top: 20px;
+}
+
+.container .card-details{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
